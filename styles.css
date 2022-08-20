@@ -17,8 +17,8 @@ body {
 .main-container {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 600px;
+  width: 370px;
+  height: 540px;
   margin-bottom: 100px;
   background-color: white;
   border-bottom-left-radius: 20px;
@@ -31,7 +31,7 @@ body {
   flex-direction: column;
   background-image: url(./photo/bg/header-shapes-mobile.png);
   padding-top: 20px;
-  padding-right: 24px;
+  padding-right: 120px;
   width: 400px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -41,11 +41,12 @@ body {
 .About-me > .greeting {
   align-items: center;
   width: 200px;
-  height: 112.75px;
+  height: 20px;
   color: #172b4d;
   padding-left: 23px;
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 120px;
+  padding-right: 20px;
 }
 
 .logo {
@@ -83,16 +84,16 @@ body {
   align-items: flex-start;
   color: #396df2;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 15px;
   line-height: 24px;
   padding-left: 1px;
-  width: 112px;
+  width: fit-content;
   border: none;
   background-color: white;
   border-radius: 8px;
   justify-content: center;
-  margin-left: 22px;
+  margin-left: 40px;
 }
 
 .link:hover {
@@ -104,12 +105,18 @@ body {
 .biography {
   padding-left: 23px;
   padding-right: 35px;
-  width: 260px;
+  width: 300px;
 }
 
 .icon {
-  padding-left: 23px;
+  padding-right: 450px;
   cursor: pointer;
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: left;
+  list-style: none;
+  gap: 12px;
 }
 
 .icon > img {
@@ -129,3 +136,13 @@ body {
   margin-bottom: 100px;
   background-color: white;
 }
+
+h1 {
+  font-size: xx-large;
+}
+
+h2 {
+  color: #396df2;
+  display: block;
+}
+/*end of styles for Day 3 week 1 mobile version page */
