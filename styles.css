@@ -1,0 +1,147 @@
+body {
+  width: 310px;
+  padding: 35px;
+  background-color: #e5e5e5;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+}
+
+.nav-bars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  width: 340px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  height: 540px;
+  margin-bottom: 100px;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border: 2px solid white;
+  padding-top: 50px;
+}
+
+.About-me {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./photo/bg/header-shapes-mobile.png);
+  padding-top: 20px;
+  padding-right: 120px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+.About-me > .greeting {
+  align-items: center;
+  width: 200px;
+  height: 20px;
+  color: #172b4d;
+  padding-left: 23px;
+  padding-top: 1px;
+  padding-bottom: 120px;
+  padding-right: 20px;
+}
+
+.logo {
+  padding-right: 24px;
+  color: blue;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 24px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 3px;
+  border-radius: 8px;
+  height: 12px;
+}
+
+.menu {
+  padding-top: 50%;
+  padding-bottom: 50%;
+  margin-top: 3px;
+}
+
+.logo:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #6070ff;
+}
+
+.link {
+  display: flex;
+  align-items: flex-start;
+  color: #396df2;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  padding-left: 1px;
+  width: fit-content;
+  border: none;
+  background-color: white;
+  border-radius: 8px;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+.link:hover {
+  background-color: #6070ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.biography {
+  padding-left: 23px;
+  padding-right: 35px;
+  width: 300px;
+}
+
+.icon {
+  padding-right: 450px;
+  cursor: pointer;
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: left;
+  list-style: none;
+  gap: 12px;
+}
+
+.icon > img {
+  width: 14px;
+  padding: 7px;
+  height: 15px;
+}
+
+.middle-section-container {
+  display: grid;
+  width: 350px;
+  height: 650px;
+  padding: 15px;
+  border-radius: 20px;
+  border: 2px solid white;
+  align-items: center;
+  margin-bottom: 100px;
+  background-color: white;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+h2 {
+  color: #396df2;
+  display: block;
+}
