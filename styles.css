@@ -399,6 +399,17 @@ h2 {
   line-height: 28px;
 }
 
+.contact-form .my-form-collection ul {
+  list-style: none;
+  width: 90%;
+  margin: auto;
+}
+
+.contact-form .my-form-collection input{
+  width: 100%;
+  height: 48px;
+  margin: 10px 0;
+}
 /* .paragragh {
   flex-direction: row;
   color: #e5e5e5;
