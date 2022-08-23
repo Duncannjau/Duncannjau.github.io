@@ -400,15 +400,23 @@ h2 {
 }
 
 .contact-form .my-form-collection ul {
+  padding: 0;
   list-style: none;
-  width: 90%;
-  margin: auto;
+  width: 100%;
+  margin: 0;
 }
 
-.contact-form .my-form-collection input{
+.contact-form .my-form-collection input {
   width: 100%;
   height: 48px;
   margin: 10px 0;
+  padding: 10px;
+}
+
+.contact-form .my-form-collection textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
 }
 /* .paragragh {
   flex-direction: row;
