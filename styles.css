@@ -2,7 +2,7 @@ body {
   width: 310px;
   padding: 35px;
   background-color: #e5e5e5;
-  font-family: "poppins", sans-serif;
+  font-family: 'poppins', sans-serif;
   font-style: normal;
 }
 
@@ -380,61 +380,99 @@ h2 {
   border-radius: 20px;
   border: 2px solid white;
   align-items: center;
-  margin-bottom: 100px;
   background-color: white;
 }
 
-.paragragh {
+.form-container .form-text h1 {
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.form-container .paragragh p {
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.contact-form .my-form-collection ul {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+}
+
+.contact-form .my-form-collection input {
+  width: 100%;
+  height: 48px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.contact-form .my-form-collection textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+/* .paragragh {
   flex-direction: row;
   color: #e5e5e5;
   text-align: center;
   width: 325px;
   margin-bottom: 10px;
-}
+} */
 
-.form-text {
+/* .form-text {
   display: flex;
   margin-top: 12px;
   margin-bottom: 12px;
-}
+} */
 
-.form-container h1 {
+/* .form-container h1 {
   text-align: center;
   color: #e5e5e5;
   margin-top: 60px;
   margin-bottom: 2px;
-}
+} */
 
-.contact-form ul {
+/* .contact-form ul {
   display: flex;
   flex-direction: column;
+  width: 90%;
   list-style: none;
-  gap: 10px;
-}
+  /* gap: 10px; */
 
-.contact-form ul li {
+/* .contact-form ul li {
   border-radius: 20%;
   width: 260px;
   height: 30px;
-}
+} */
 
-input[type=email] {
+/* .contact-form input{
+  width: 100%;
+} */
+
+/* input[type=email] {
   width: 170px;
-}
+} */
 
-.s-button {
+/* .s-button {
   width: 100px;
   height: 43px;
   margin-left: 70px;
-}
+} */
 
-.contact-form {
+/* .contact-form {
   display: flex;
   align-items: center;
   padding-right: 30px;
-}
+} */
 
-.contact-button {
+/* .contact-button {
   display: flex;
   margin-left: 40px;
   width: 100px;
@@ -443,9 +481,9 @@ input[type=email] {
   align-items: center;
   border-radius: 1px;
   color: #6070ff;
-}
+} */
 
-.contact-button:hover {
+/* .contact-button:hover {
   color: #ebebff;
   background-color: #6070ff;
-}
+} */
