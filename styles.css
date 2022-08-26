@@ -402,19 +402,21 @@ h2 {
 .contact-form .my-form-collection ul {
   padding: 0;
   list-style: none;
-  width: 100%;
+  width: 90%;
   margin: 0;
 }
 
 .contact-form .my-form-collection input {
-  width: 100%;
+  width: 90%;
   height: 48px;
   margin: 10px 0;
   padding: 10px;
+  border-radius: 6px;
 }
 
 .contact-form .my-form-collection textarea {
-  width: 100%;
+  width: 90%;
   margin: 10px 0;
   padding: 10px;
+  border-radius: 6px; 
 }
