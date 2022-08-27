@@ -381,13 +381,12 @@ h2 {
   border: 2px solid white;
   align-items: center;
   margin-bottom: 100px;
-  background-color:#6070ff;
+  background-color: #6070ff;
   margin-top: 50px;
 }
 
-
 .form-container .form-text h1 {
-  font-family: 'Poppins';
+  font-family:'Arial Narrow','poppins',Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -395,7 +394,7 @@ h2 {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   flex-direction: column;
   margin-top: 80px;
 }
@@ -404,14 +403,13 @@ h2 {
   padding-left: 2px;
   padding-right: 35px;
   width: 300px;
-  font-family: 'Poppins';
+  font-family: 'Arial Narrow', Arial, sans-serif,'poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
-  margin-top: 0px;
+  color: #ebebff;
   align-items: center;
 }
 
@@ -449,14 +447,14 @@ h2 {
   border-radius: 8px;
   color: blue;
   border: white;
-  font-family: 'Poppins';
+  font-family:'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.03em
+  letter-spacing: 0.03em;
 }
 
 .s-button:hover {
