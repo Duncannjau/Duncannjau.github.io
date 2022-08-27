@@ -371,52 +371,96 @@ h2 {
 }
 
 .form-container {
-  background: url(photo/bg/Contact\ me.png);
   display: flex;
+  flex-direction: column;
+  background-image: url(./photo/bg/contact\ form\ shapes-mobile@2x.png);
   width: 350px;
   height: 700px;
-  flex-direction: column;
   padding: 15px;
   border-radius: 20px;
   border: 2px solid white;
   align-items: center;
-  background-color: white;
+  margin-bottom: 100px;
+  background-color:#6070ff;
+  margin-top: 50px;
 }
 
+
 .form-container .form-text h1 {
-  color: white;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  flex-direction: column;
+  margin-top: 80px;
 }
 
 .form-container .paragragh p {
-  color: white;
+  padding-left: 2px;
+  padding-right: 35px;
+  width: 300px;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 28px;
+  text-align: center;
+  color: #EBEBFF;
+  margin-top: 0px;
+  align-items: center;
 }
 
 .contact-form .my-form-collection ul {
-  padding: 0;
   list-style: none;
-  width: 90%;
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 12px;
+  margin-top: 2px;
 }
 
 .contact-form .my-form-collection input {
-  width: 90%;
-  height: 48px;
-  margin: 10px 0;
-  padding: 10px;
   border-radius: 6px;
+  background: white;
+  border: transparent;
+  margin-top: 12px;
+  width: 300px;
+  padding: 8px;
 }
 
 .contact-form .my-form-collection textarea {
-  width: 90%;
-  margin: 10px 0;
-  padding: 10px;
   border-radius: 6px;
+  background: white;
+  border: transparent;
+  margin-top: 12px;
+  width: 300px;
+  padding: 8px;
+}
+
+.s-button {
+  width: 120px;
+  height: 40px;
+  background: white;
+  border-radius: 8px;
+  color: blue;
+  border: white;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em
+}
+
+.s-button:hover {
+  background-color: #6070ff;
+  cursor: pointer;
+  color: #fff;
 }
