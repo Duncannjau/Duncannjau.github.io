@@ -386,7 +386,7 @@ h2 {
 }
 
 .form-container .form-text h1 {
-  font-family:'Arial Narrow','poppins',Arial, sans-serif;
+  font-family: 'Arial Narrow', 'poppins', Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -403,7 +403,7 @@ h2 {
   padding-left: 2px;
   padding-right: 35px;
   width: 300px;
-  font-family: 'Arial Narrow', Arial, sans-serif,'poppins';
+  font-family: 'Arial Narrow', Arial, sans-serif, 'poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -447,7 +447,7 @@ h2 {
   border-radius: 8px;
   color: blue;
   border: white;
-  font-family:'Arial Narrow', Arial, sans-serif;
+  font-family: 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
