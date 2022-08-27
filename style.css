@@ -1,6 +1,6 @@
-* {
+html {
   max-width: 100%;
-  overflow-x: hidden;
+  overflow-x: hidden ;
 }
 
 body {
@@ -9,12 +9,11 @@ body {
   margin: 0;
   padding: 0;
   max-width: 100%;
-  overflow-x: hidden;
 }
 
 .overflow {
   max-width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .pd-0 {
@@ -523,7 +522,7 @@ img:hover {
     display: flex;
     flex-direction: column;
     width: -webkit-fill-available;
-    margin-top: 71px;
+    margin-top: 5px;
     margin-left: 2.55%;
     margin-right: 0.6%;
     align-items: flex-start;
