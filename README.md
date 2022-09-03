@@ -2,7 +2,8 @@
 # Project Name
 
 > PORTFOLIO WEBPAGE FOR DUNCAN NJAU Desktop version
-
+## Live demo
+The live webpage can be found in the link [https://duncannjau.github.io/](https://duncannjau.github.io/)
 
 ## Built With
 
