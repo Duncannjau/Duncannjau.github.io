@@ -22,7 +22,7 @@ HTML and CSS
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
+Follow [https://duncannjau.github.io/](https://duncannjau.github.io/) to  visit the webpage
 ### Setup
 
 ### Install
