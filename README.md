@@ -32,7 +32,7 @@ To get a local copy up and running follow these simple example steps.
 ### Run tests
 
 ### Deployment
-Follow this [link](https://duncannjau.github.io/)to visit the webpage
+Follow this [link](https://duncannjau.github.io/)  to visit the webpage
 ## Authors
 
 👤 **Author1**
